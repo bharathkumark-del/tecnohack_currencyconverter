@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(bgimg.jpg);
+    max-height: 100vh;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    font-size: 2em;
+    color: purple;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 209, 209);
+    border-top: 7px solid purple;
+    border-bottom: 4px solid purple;
+}
+#imgs {
+    width: 360px;
+    height: 180px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    background-color: #0596e7;
+    width: 360px;
+    height: 590px;
+    margin-top: 30px;
+    border: 2px solid purple;
+    box-shadow: 7px 7px 20px rgba(4, 130, 158, 0.9);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.wrapper form {
+    margin: 40px 0px 20px 0px;
+}
+.wrapper form input,
+.wrapper form select,
+.wrapper form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.amount p {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.wrapper form input {
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #666;
+    font-size: 18px;
+}
+.wrapper form input:focus {
+    border: 2px solid purple;
+    padding: 0 13px;
+}
+.wrapper from .droplist .selectbox img {
+    max-width: 21px;
+}
+.form {
+    width: 150px;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 10px;
+}
+span {
+    background-color: rgb(252, 251, 251);
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+}
+.icon {
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.to {
+    width: 150px;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 10px;
+}
+.droplist {
+    display: flex;
+    align-items: safe;
+}
+.selectbox {
+    display: flex;
+}
+.wrapper from .droplist .selectbox select {
+    width: auto;
+    font-size: 16px;
+    background: none;
+    margin: 0 -5px 0 5px;
+}
+.wrapper form .droplist .selectbox::-webkit-scrollbar {
+    width: 8px;
+}
+.wrapper form .droplist .selectbox::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+.wrapper form .droplist .selectbox::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+    border-right: 2px solid #fff;
+}
+.exchangerate {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px 0 30px;
+}
+.wrapper form button {
+    height: 40px;
+    background: purple;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.wrapper form button:hover {
+    background: white;
+    color: purple;
+    font-weight: bold;
+    border: 2px solid purple;
+}
